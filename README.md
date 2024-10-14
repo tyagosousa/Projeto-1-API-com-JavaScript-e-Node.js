@@ -1,8 +1,14 @@
-Projeto simples usando Javascript com Node.js usando os verbos:
+# Projeto CRUD de Usuários com Node.js
 
-<span style="color:red"> GET -> para listar usuários</span>  
-DELETE -> excluir usuários  
-POST -> adicionar usuários  
-PUT -> editar usuários
+Este projeto é um servidor simples em Node.js que permite gerenciar usuários usando operações de CRUD.
 
-O código ainda conta com token de verificação (apenas para fins didáticos)
+## Endpoints
+
+- <span style="color:red">**GET**</span> `/users`: Para listar usuários
+- <span style="color:green">**POST**</span> `/users`: Para adicionar um usuário
+- <span style="blue">**PUT**</span> `/users/:id`: Para editar um usuário
+- <span style="orange">**DELETE**</span> `/users/:id`: Para excluir um usuário
+
+- ## Verificação de Token
+
+Este projeto utiliza um middleware para verificar um token de autenticação. O token deve ser enviado no cabeçalho da requisição como `Authorization`.
