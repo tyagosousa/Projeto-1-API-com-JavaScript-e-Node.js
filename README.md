@@ -12,3 +12,5 @@ Este projeto é um servidor simples em Node.js que permite gerenciar usuários u
 - ## Verificação de Token
 
 Este projeto utiliza um middleware para verificar um token de autenticação. O token deve ser enviado no cabeçalho da requisição como `Authorization`.
+
+
